@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+#app {
+  width: 1000px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 5px;
+  height: 500px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: rgb(75, 75, 75);
+  color: white;
+  padding: 0px 5px 0px 5px;
+  border-color: black;
+  /* border-bottom: 3px solid black; */
+  height: 10%;
+}
+
+.header button,
+input {
+  height: 90%;
+}
+
+.header input {
+  background: rgb(75, 75, 75);
+}
+
+#header__inputLength {
+  width: 50px;
+  color: white;
+}
+
+#header__inputNumbers {
+  flex-grow: 1;
+  color: white;
+}
+
+.sortingBox {
+  background-color: #99e2b4;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bar {
+  border-left-style: solid;
+  position: absolute;
+  bottom: 0px;
+  transition: border-left 0.3s;
+}
