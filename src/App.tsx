@@ -5,7 +5,7 @@ import SortingBox from './components/SortingBox';
 function App() {
   return (
     <div>
-      <h1>Sorter</h1>
+      <h1>React Sorting Algorithm Visualizer</h1>
       <SortingBox />
     </div>
   );
