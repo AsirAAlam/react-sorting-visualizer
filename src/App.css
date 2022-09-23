@@ -1,43 +1,6 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -46,12 +9,11 @@ h1 {
 }
 
 #app {
-  width: 1000px;
   border-width: 5px;
   border-style: solid;
   border-color: black;
   border-radius: 5px;
-  height: 500px;
+  height: 700px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -67,12 +29,15 @@ h1 {
   padding: 0px 5px 0px 5px;
   border-color: black;
   /* border-bottom: 3px solid black; */
-  height: 10%;
+  /* height: 10%; */
 }
 
-.header button,
-input {
+.header input {
   height: 90%;
+}
+
+.header button {
+  height: '50px';
 }
 
 .header input {
@@ -91,10 +56,11 @@ input {
 
 .sortingBox {
   background-color: #99e2b4;
-  height: 90%;
+  /* height: 90%; */
   width: 100%;
   position: absolute;
   bottom: 0px;
+  left: 0px;
 }
 
 .bar {
